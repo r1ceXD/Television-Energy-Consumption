@@ -5,10 +5,10 @@ body {
     flex-direction: column;
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background: #ffe97f;
 }
 
 .container {
-    width: min(1100px, calc(100% - 40px));
     margin: 0 auto;
 }
 
@@ -18,8 +18,14 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 24px;
+    background: #ff9500;
+    padding-left: 150px;
 }
 
+.nav-links {
+    margin-right: auto;
+    padding-left: 400px;
+}
 
 .nav-links a {
     padding: 8px 12px;
@@ -27,6 +33,7 @@ body {
     font-size: 0.95rem;
     text-decoration: none;
 }
+
 
 .nav-links a:hover,
 .nav-links a:focus-visible,
@@ -42,6 +49,6 @@ body {
 
 .site-footer {
     margin-top: auto;
-    color: #dfe8f7;
-    background: #d95d39
+    background: #ffa200;
+    padding-left: 150px;
 }
