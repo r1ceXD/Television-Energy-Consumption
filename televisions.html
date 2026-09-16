@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Televisions</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="function.js" defer></script>
 </head>
 <body>
     <!-- Navigation Bar -->
     <header class="site-header">
-        <nav class="navbar container" aria-label="Main navigation">
-            <a href="index.html">
+        <nav class="navbar container">
+            <a href="index.html" data-page="home">
                 <img class="logo" src="images/logo_tv.png" alt="Logo">
             </a>
             <h1>Appliance Energy Consumption</h1>
             <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a class="active" href="televisions.html" aria-current="page">Televisions</a>
-                <a href="about_us.html">About Us</a>
+                <a href="index.html" data-page="home">Home</a>
+                <a class="active" href="televisions.html" data-page="televisions">Televisions</a>
+                <a href="about_us.html" data-page="about">About Us</a>
             </div>
         </nav>
     </header>
