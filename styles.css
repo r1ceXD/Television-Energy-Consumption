@@ -19,7 +19,7 @@ body {
     justify-content: space-between;
     gap: 24px;
     background: #ff9500;
-    padding-left: 150px;
+    padding-left: 130px;
 }
 
 .nav-links {
@@ -52,4 +52,11 @@ body {
     margin-top: auto;
     background: #ffa200;
     padding-left: 150px;
+}
+
+.logo{
+    position: relative;
+    right: 55px;
+    width: 90px;
+    height: 70px;
 }
